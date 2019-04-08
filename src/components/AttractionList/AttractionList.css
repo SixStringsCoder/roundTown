@@ -1,0 +1,56 @@
+#venues {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 350px;
+  width: 80vw;
+}
+
+.attractionTitle {
+  display: flex;
+  justify-content: flex-start;
+  height: 3vh;
+  width: 81vw;
+  padding: 4rem 0 4rem 0;
+}
+
+.attractionTitle h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+  letter-spacing: 3.4px;
+  color: #7AB800;
+}
+
+/* ============================
+        MEDIA QUERIES
+==============================*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .companyName {
+    font-size: 4.3rem;
+  }
+
+  #weather, #venues {
+    justify-content: space-between;
+    width: 89vw;
+  }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #weather, #venues {
+    justify-content: space-between;
+    width: 83vw;
+  }
+
+  #destination {
+    font-size: 3.5rem;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

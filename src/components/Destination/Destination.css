@@ -1,0 +1,35 @@
+#destination {
+  display: flex;
+  justify-content: center;
+  height: 7rem;
+  /* padding: 2rem 0 0 0; */
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  text-align: center;
+  color: #FD7400;
+}
+
+
+/* ============================
+        MEDIA QUERIES
+==============================*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #destination {
+    font-size: 2rem;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

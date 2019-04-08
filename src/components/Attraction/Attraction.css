@@ -1,0 +1,85 @@
+.venue {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.venue .topInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.venue .topInfo h2 {
+  font-weight: bold;
+}
+
+.venue .bottomInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.venue h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.4rem;
+  /* padding-bottom: .5rem; */
+  word-wrap: normal;
+  color: #4a4a4a;
+  margin: 0;
+}
+
+.venue h4 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  margin: 1rem 0 0;
+  color: #4a4a4a;
+}
+
+.venue .bottomInfo p {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.3rem;
+  margin: 0;
+  text-align: left;
+  color: #4a4a4a;
+}
+
+.venue .bottomInfo h2 {
+  font-size: .7rem;
+}
+
+.venueimage {
+    width:  300px;
+    height: 300px;
+    border-radius: 1rem;
+    border: 1px solid black;
+    margin-top: .5rem;
+}
+
+#venueMap {
+    width: 100px;
+    height: 45px;
+    border-radius: 4px;
+    background-color: #7AB800;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin: .6rem 0 0 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#venueMap a {
+  color: #ffffff;
+  text-decoration: none;
+}

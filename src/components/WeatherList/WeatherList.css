@@ -1,0 +1,23 @@
+#weather {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 350px;
+  width: 80vw;
+}
+
+.sectiontitle {
+  display: flex;
+  justify-content: flex-start;
+  height: 3vh;
+  width: 81vw;
+  padding: 0 0 4rem 0;
+}
+
+.sectiontitle h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 3.4px;
+  color: #7AB800;
+}

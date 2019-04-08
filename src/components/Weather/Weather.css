@@ -1,0 +1,78 @@
+.weather {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: .5rem;
+}
+
+.weatherLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weatherLeft .day {
+  font-size: 2rem;
+}
+
+.weatherRight {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap
+}
+
+.weather h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  color: #4a4a4a;
+}
+
+.weatherRight h2 span {
+ font-weight: bold;
+ color: #fd7400;
+}
+
+.weathericon {
+  width: 100px;
+  height: 100px;
+}
+
+.weather p {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2.36;
+  text-align: center;
+  color: #4a4a4a;
+  margin: 0;
+}
+
+/* ============================
+        MEDIA QUERIES
+==============================*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #weather, #venues {
+    justify-content: space-between;
+    width: 89vw;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #weather, #venues {
+    justify-content: space-between;
+    width: 83vw;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
