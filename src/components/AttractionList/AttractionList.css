@@ -11,7 +11,8 @@
   justify-content: flex-start;
   height: 3vh;
   width: 81vw;
-  padding: 4rem 0 4rem 0;
+  margin: 0 0 4rem 0;
+  padding: 0;
 }
 
 .attractionTitle h2 {

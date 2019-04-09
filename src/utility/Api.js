@@ -5,7 +5,8 @@ const url = 'https://api.foursquare.com/v2/venues/explore?near=';
 
 // APIXU Info
 const apiKey = '08a7fc1afc044d27a9a34310181301';
-const forecastUrl = 'https://api.apixu.com/v1/forecast.json?key=';
+const cors = 'https://cors-anywhere.herokuapp.com/';
+const forecastUrl = 'api.apixu.com/v1/forecast.json?key=';
 
 // Page Elements
 // const venueDivs = [document.getElementById('venue')];
@@ -16,8 +17,8 @@ const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Satur
 // AJAX Calls Object
 const ApiCalls = {
   // Return weatherforecast based on Search input value
-  getForecast: function(location) {
-    const urlToFetch = `${forecastUrl}${apiKey}&q=${location}&days=7`
+  getForecast: function(location, days) {
+    const urlToFetch = `${cors}${forecastUrl}${apiKey}&q=${location}&days=${days}`
     return fetch(urlToFetch)
         .then(response => {
         return response.json();

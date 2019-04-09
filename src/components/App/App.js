@@ -15,6 +15,11 @@ class App extends Component {
     location: "",
   }
 
+  componentDidMount() {
+    this.searchApi('Portland');
+
+  }
+
   searchApi = (location) => {
     ApiCalls.getForecast(location).then(forecast => {
       // console.log(forecast);
@@ -74,6 +79,7 @@ class App extends Component {
 
         <footer>
           <p id="copyright">&copy; 2018 Steve Hanlon</p>
+          <p id="weather-source">Weather service <a href="https://www.apixu.com/" title="Weather API">Apixu.com</a></p>
         </footer>
       </div>
     );

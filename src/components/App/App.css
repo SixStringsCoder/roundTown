@@ -82,6 +82,7 @@ Results Area for weather and venues
 ==============================*/
 footer {
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
    height: 7rem;
@@ -90,10 +91,16 @@ footer {
    background: #fff url("images/round_town_BG2.png")bottom center;
  }
 
-#copyright {
+#copyright,
+#weather-source {
   font-size: 1.2rem;
   color: #fff;
   font-family: 'Montserrat Alternates', sans-serif;
+  margin: 0;
+}
+
+#weather-source a {
+  color: #eee;
 }
 
 
